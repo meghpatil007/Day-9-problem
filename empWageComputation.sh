@@ -15,6 +15,7 @@ do
  x=$((RANDOM%3))
   case $x in
 	0) echo "employee is absent"
+		echo "Todays wage = 0"
 	     		;;
 	1) echo "employee is present full time"
            a=$((wage_per_hour*full_day_hours))
@@ -32,7 +33,7 @@ do
 
   esac
  echo "Total Wage =" $tw
-# echo "Day "$count
+ echo "Day "$count
  echo "Total Working hour = " $th
  echo
 done
