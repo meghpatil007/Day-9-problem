@@ -33,6 +33,7 @@ do
   esac
  echo "Total Wage =" $tw
 # echo "Day "$count
-# echo "Total Working hour = " $th
+ echo "Total Working hour = " $th
  echo
 done
+
